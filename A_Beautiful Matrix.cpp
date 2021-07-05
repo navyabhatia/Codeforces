@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
    int mat[6][6];//not 5 5 
-   int i,j; long int temp;
+   int i,j;
    for(int rows=1;rows<=5;rows++){
        for(int cols=1;cols<=5;cols++){
            cin>>mat[rows][cols];
